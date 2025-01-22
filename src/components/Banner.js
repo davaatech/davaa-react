@@ -47,8 +47,11 @@ export const Banner = () => {
                 <Row className= 'align-items-center'>
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Well, hello there!</span>
-                        <h1>{'I am a '}</h1>
+                        <h2>{'I am '} <span className=" banner-text" >Davaa Baatar</span></h2>
+                        <div className="banner-typing-text">
+
                         <h1><span className="wrap">{text}</span></h1>
+                        </div>
                         <p className="description">You can find some of my work here.</p>
                         <a href="#" className="btn btn-primary">Let's Connect <ArrowRightCircle size={25}/></a>
 
