@@ -46,13 +46,13 @@ export const Banner = () => {
             <Container>
                 <Row className= 'align-items-center'>
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Well, hello there!</span>
+                        <span className="tagline">Ello, gov'nor!</span>
                         <h2>{'I am '} <span className=" banner-text" >Davaa Baatar</span></h2>
                         <div className="banner-typing-text">
 
                         <h1><span className="wrap">{text}</span></h1>
                         </div>
-                        <p className="description">You can find some of my work here.</p>
+                        <p className="description">A natural problem solver, would love to do it through code and turning ideas into reality. Explore my portfolio to see what I've been working on!".</p>
                         <a href="#" className="btn btn-primary">Let's Connect <ArrowRightCircle size={25}/></a>
 
                     </Col>
