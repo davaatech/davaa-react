@@ -452,6 +452,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx:hover::before {
   height: 100%;
 }
+
+.proj-img {
+  width: 100%;
+  height: auto;
+}
+
 .proj-txtx {
   position: absolute;
   text-align: center;
