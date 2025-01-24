@@ -1,9 +1,9 @@
-import {Col, Container, Row} from "react-bootstrap";
+import {Col} from "react-bootstrap";
 
-export const ProjectCard = ({title, description, imgURL}) => {
+export const ProjectCard = ({title, description, imgUrl}) => {
     return (
         <Col sm={6} md={4}>
-            <img src={imgURL} alt={title} />
+            <img src={imgUrl} alt={title} />
             <div className="proj-txtx">
             <h4> {title} </h4>
             <span>{description}</span>

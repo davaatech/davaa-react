@@ -1,8 +1,8 @@
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import colorSharp from "../assets/img/color-sharp.png"
 import { BrowserChrome, CameraReels, Palette, Phone  } from "react-bootstrap-icons"
+import TrackVisibility from 'react-on-screen';
 
 export const Skills = () => {
     const responsive = {
@@ -35,6 +35,9 @@ export const Skills = () => {
                             <p>I am proficient in front-end development and creating your wanted design..
                                 <br></br> 
                             (Extra: AWS Lamda and Azure services).</p>
+                            <TrackVisibility>
+                            {({ isVisible }) =>
+                                <div className={isVisible ? "animate__animated animate__bounceInUp": ""}>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
                                     <div className="skill-space" >
@@ -61,11 +64,12 @@ export const Skills = () => {
                                         <h5>Application Development</h5>
                                 </div>
                             </Carousel>
+                            </div>}
+                            </TrackVisibility>
                         </div>
                     </div>
                 </div>
             </div>
-            <img className="background-image-left" src={colorSharp} alt="Image" />
         </section>
     )
 }
