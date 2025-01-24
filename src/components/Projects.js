@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/eqthem.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg2 from "../assets/img/lamore.png";
+import projImg3 from "../assets/img/e-voting.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -14,32 +14,21 @@ export const Projects = () => {
           title: "EQTHEM",
           description: "Empowering men in service orineted industry",
           imgUrl: projImg1,
+          Url: "https://eqthem.space",
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "Lamore",
+          description: "Flower shop",
           imgUrl: projImg2,
+          Url: "https://lamore.mn",
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "E-Voting System with blockchain",
+          description: "Blackchain & Smart contracts through Ganache",
           imgUrl: projImg3,
+          Url: "https://github.com/bdaa0001/fit5163-evoting-system"
         },
-        {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg3,
-        },
-        {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg2,
-        },
-        {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg3,
-        },
+        
       ];
 
     return (
@@ -51,7 +40,7 @@ export const Projects = () => {
                     {({ isVisible }) =>
                         <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                         <h2> Projects</h2>
-                        <p>This is a description</p>
+                        <p></p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>

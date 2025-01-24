@@ -47,14 +47,14 @@ export const NavBar = () => {
             </Nav>
             <span className='navbar-text'>
                 <div className='social-icon'>
-                    <a href='https://www.facebook.com/your-profile' target='_blank'>
-                        <img src={navIcon1} alt=""/>
+                    <a href='https://au.linkedin.com/in/davaa-baatar' target='_blank'>
+                        <img src={navIcon1} alt="linked in profile icon"/>
                     </a>
-                    <a href='https://www.instagram.com/your-profile' target='_blank'>
-                        <img src={navIcon2} alt=""/>
+                    <a href='https://www.facebook.com/davaa.like' target='_blank'>
+                        <img src={navIcon2} alt="Facebook icon"/>
                     </a>
-                    <a href='' target='_blank' >
-                        <img src={navIcon3} alt=""/>
+                    <a href='https://www.instagram.com/baatar_davaa' target='_blank' >
+                        <img src={navIcon3} alt="Instagram icon"/>
                     </a>
                 </div>
 
