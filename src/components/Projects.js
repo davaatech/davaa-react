@@ -12,7 +12,8 @@ export const Projects = () => {
     const projects = [
         {
           title: "EQTHEM",
-          description: "Empowering men in service orineted industry",
+          description: "Empowering men in service orineted industry.",
+          details: "User name & password: equinox",
           imgUrl: projImg1,
           Url: "https://eqthem.space",
         },
