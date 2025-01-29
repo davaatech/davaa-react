@@ -292,7 +292,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner .banner-typing-text {
-  height: 75px;
+  height: 150px;
 }
 
 @keyframes updown {

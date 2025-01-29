@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
-import headingImg from "../assets/img/header-img.svg"
+import headingImg from "../assets/img/space_man.png"
 import { useEffect, useState } from "react"
 import TrackVisibility from "react-on-screen"
 import 'animate.css'
@@ -58,7 +58,7 @@ export const Banner = () => {
                                         <h1><span className="wrap">{text}</span></h1>
                                     </div>
                                     <p className="description">A natural problem solver, would love to do it through code and turning ideas into reality. Explore my portfolio to see what I've been working on!</p>
-                                    <a href="#" className="btn btn-primary">Let's Connect <ArrowRightCircle size={25} /></a>
+                                    <a href="#contact" className="btn btn-primary">Let's Connect <ArrowRightCircle size={25} /></a>
                                 </div>
                             }
                         </TrackVisibility>
