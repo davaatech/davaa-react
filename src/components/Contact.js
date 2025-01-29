@@ -1,6 +1,5 @@
 import { useState } from "react"
 import { Col, Container, Row } from "react-bootstrap"
-import { Phone } from "react-bootstrap-icons"
 import contactImg from "../assets/img/contact-img.svg"
 
 export const Contact = () => {
