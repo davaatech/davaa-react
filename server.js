@@ -4,9 +4,10 @@ const cors = require("cors");
 const nodemailer = require("nodemailer");
 
 let port;
-process.env.STATUS === 'production'
-  ? (port = process.env.PROD_PORT)
-  : (port = process.env.DEV_PORT);
+
+port = process.env.PORT || 5001;
+
+
 
 // server used to send send emails
 const app = express();
@@ -14,8 +15,8 @@ app.use(cors());
 app.use(express.json());
 app.use("/", router);
 app.listen(port, () => console.log("Server Running"));
-console.log(process.env.EMAIL_USER);
-console.log(process.env.EMAIL_PASS);
+// console.log(process.env.EMAIL_USER);
+// console.log(process.env.EMAIL_PASS);
 
 const contactEmail = nodemailer.createTransport({
   service: 'gmail',
