@@ -57,7 +57,7 @@ export const Banner = () => {
 
                                         <h1><span className="wrap">{text}</span></h1>
                                     </div>
-                                    <p className="description">A natural problem solver, would love to do it through code and turning ideas into reality. Explore my portfolio to see what I've been working on!</p>
+                                    <p className="description">As a software engineer based in Melbourne, Australia, specializing in full-stack web development, I thrive on transforming complex problems into intuitive digital solutions!</p>
                                     <a href="#contact" className="btn btn-primary">Let's Connect <ArrowRightCircle size={25} /></a>
                                 </div>
                             }

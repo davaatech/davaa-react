@@ -1,7 +1,7 @@
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { BrowserChrome, CameraReels, Palette, Phone  } from "react-bootstrap-icons"
+import { BrowserChrome, Lightbulb, Cloud, PersonRaisedHand  } from "react-bootstrap-icons"
 import TrackVisibility from 'react-on-screen';
 
 export const Skills = () => {
@@ -32,9 +32,14 @@ export const Skills = () => {
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn">
                             <h2>Skills</h2>
-                            <p>I am proficient in front-end development and creating your wanted design..
-                                <br></br> 
-                            (Extra: AWS Lamda and Azure services).</p>
+                            <p>As a graduate software engineer proficient in JavaScript, React, Vue, Node.js, Java, and Python, 
+                                I have developed innovative solutions that bridge technology and real-world applications. 
+                                I built EQTHEM, an AI-powered quiz platform that helps individuals identify suitable careers 
+                                in the education and healthcare sectors. Additionally, I developed Pixtag, a cloud-based system 
+                                utilizing AWS Lambda to automate image uploads, object detection, and tagging. Passionate about 
+                                problem-solving and scalable software development, I am eager to contribute my skills to impactful 
+                                projects in a dynamic team environment.
+                            </p>
                             <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__bounceInUp": ""}>
@@ -43,25 +48,25 @@ export const Skills = () => {
                                     <div className="skill-space" >
                                         <BrowserChrome size={40} />
                                     </div>
-                                        <h5>Web Development</h5>
+                                        <h5>Clean UI design</h5>
                                 </div>
                                 <div className="item">
                                     <div className="skill-space" >
-                                        <CameraReels size={40} />
+                                        <Cloud size={40} />
                                     </div>
-                                        <h5>Brand Identity</h5>
+                                        <h5>AWS and Azure services</h5>
                                 </div>
                                 <div className="item">
                                     <div className="skill-space" >
-                                        <Palette size={40} />
+                                        <Lightbulb size={40} />
                                     </div>
-                                        <h5>Logo Design</h5>
+                                        <h5>Problem solving, ability to break down complex issues</h5>
                                 </div>
                                 <div className="item">
                                     <div className="skill-space" >
-                                        <Phone size={40} />
+                                        <PersonRaisedHand size={40} />
                                     </div>
-                                        <h5>Application Development</h5>
+                                        <h5>Collaboration, Working effectively in teams using Agile or Scrum methodologies</h5>
                                 </div>
                             </Carousel>
                             </div>}
