@@ -72,7 +72,7 @@ export const Contact = () => {
         <Row className="align-items-center">
         
           <Col md={6}>
-          <button onClick={onButtonClick} className="p-2 m-4 b-2 rounded">
+          <button onClick={onButtonClick} className="p-2 m-4 b-2 rounded btn btn-primary btn-lg btn-block "> 
             Download Resume
           </button>
             <img src={contactImg} alt="Contact me" />
